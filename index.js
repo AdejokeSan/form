@@ -73,7 +73,7 @@ const validateInputs = () => {
         setError(password2, 'Please confirm your password');
     }else if (password2Value !== passwordValue) {
         setError(password2, "Password does not match");
-    }else if(password2Value == passwordValue || username == usernameValue || email == emailValue){
+    }else if(password2Value == passwordValue || password == passwordValue || username == usernameValue || email == emailValue){
         popup.classList.add('open-slide');
         return false;
     }else {

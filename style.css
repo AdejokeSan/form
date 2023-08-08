@@ -18,9 +18,10 @@ body{
     border-radius: 4px;
     font-size: 12px;
     backdrop-filter: blur(15px);
+    color: #fff;
 }
 #form h1{
-    color: #0f2027;
+    color: #fff;
     text-align: center;
 }
 #form button{
@@ -54,6 +55,7 @@ body{
 .input-control i{
     position: absolute;
     right: 30px;
+    color: #fff;
 }
 .input-control input :focus{
     outline: 0;
